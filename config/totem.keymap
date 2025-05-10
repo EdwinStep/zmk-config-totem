@@ -44,7 +44,7 @@
                                          &kp Q      &kp W      &kp F         &kp P         &kp B         &kp J       &kp L       &kp U         &kp Y      &kp SQT
                                          &mt LGUI A &mt LALT R &mt LCTRL S   &mt LSHFT T   &kp G         &kp M       &mt LSHFT N &mt LCTRL E   &mt LALT I &mt RGUI O
                                 &kp RALT &kp Z      &kp X      &lt LTU C     &kp D         &kp V         &kp K       &kp H       &lt LTU COMMA &kp DOT    &kp FSLH   &kp RALT
-                                                               &LT MEDIA ESC &lt NAV SPACE &lt MOUSE TAB &lt SYM RET &lt NUM BSP &lt FUN DEL
+                                                               &lt MEDIA ESC &lt NAV SPACE &lt MOUSE TAB &lt SYM RET &lt NUM BSP &lt FUN DEL
                         >;
                 };
                 nav_layer {
