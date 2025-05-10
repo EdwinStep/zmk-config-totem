@@ -53,7 +53,7 @@
                                          &none    &none    &none     &none     &none &none    &none     &none     &none     &none
                                          &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp CAPS
                                 &kp RALT &none    &none    &none     &none     &none &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp INS  &none
-                                                           &none     &none     &none &kp RET  &kp BSP   &kp DEL    
+                                                           &none     &none     &none &kp RET  &kp BSPC   &kp DEL    
                         >;
                 };
                 mouse_layer {
