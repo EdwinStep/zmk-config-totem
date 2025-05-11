@@ -77,10 +77,10 @@
                 media_layer {
                         label= "MEDIA";
                         bindings = <
-                                         &none    &none    &none     &none     &none &none    &none     &none     &none     &none
-                                         &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none &kp C_PREV &kp C_VOL_DN  &kp C_VOL_UP    &kp C_NEXT &none 
-                                &kp RALT &none    &none    &none     &none     &none &none &none &none &none   &none  &none
-                                                           &none     &none     &none &none  &kp C_PP   &kp C_MUTE    
+                                         &none    &none    &none     &none     &none &none      &bt BT_NXT   &bt BT_PRV   &bt BT_CLR &out OUT_TOG
+                                         &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT &none 
+                                &kp RALT &none    &none    &none     &none     &none &none      &none        &none        &none      &none        &none
+                                                           &none     &none     &none &none      &kp C_PP     &kp C_MUTE    
                         >;
                 };
                 num_layer {
