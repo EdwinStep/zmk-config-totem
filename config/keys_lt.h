@@ -61,8 +61,8 @@
 // Shifted symbols
 // Row 1
 #define LT_TILD LS(LT_GRAVE) // ~
-#define LT_LPAR LS(LT_9)     // (
-#define LT_RPAR LS(LT_0)     // )
+#define LT_LPAR LS(N9)     // (
+#define LT_RPAR LS(N0)     // )
 #define LT_UNDS LS(LT_MINUS) // _
 
 // Row 2
