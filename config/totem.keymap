@@ -80,7 +80,7 @@
                         bindings = <
                                       &none            &none       &none             &none       &none       &none       &none       &kp LT_UOGO       &kp LT_UMAC      &none
                                       &mt LGUI LT_AOGO &kp LALT    &mt LCTRL LT_SCAR &kp LSHFT   &none       &none       &kp LSHFT   &mt LCTRL LT_EOGO &mt LALT LT_IOGO &mt LGUI LT_EDOT
-                                      &kp LT_ZCAR      &none       &kp LT_CCAR       &none       &none       &none       &none       &none             &none            &none
+                                &none &kp LT_ZCAR      &none       &kp LT_CCAR       &none       &none       &none       &none       &none             &none            &none            &none
                                                                    &none             &none       &none       &none       &none       &none 
                         >;
                 };
