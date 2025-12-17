@@ -32,7 +32,17 @@
   quick-tap-ms = <100>;
   global-quick-tap;
   flavor = "tap-preferred";
-  tapping-term-ms = <170>;
+  tapping-term-ms = <200>;
+};
+&mmv {
+  acceleration-exponent = <1>;
+  time-to-max-speed-ms = <1500>;
+  delay-ms = <0>;
+};
+&msc {
+  acceleration-exponent = <1>;
+  time-to-max-speed-ms = <5000>;
+  delay-ms = <0>;
 };
 
 / {
@@ -68,10 +78,10 @@
                 ltu_layer {
                         label= "LTU";
                         bindings = <
-                                      &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
-                                      &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none       &none       &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
-                                &none &kp LT_AOGO &kp LT_CCAR &kp LT_EOGO &kp LT_EDOT &kp LT_IOGO &kp LT_SCAR &kp LT_UOGO &kp LT_UMAC &kp LT_ZCAR &none    &none
-                                                              &none       &none       &none       &none       &none       &none 
+                                      &none            &none       &none             &none       &none       &none       &none       &kp LT_UOGO       &kp LT_UMAC      &none
+                                      &mt LGUI LT_AOGO &kp LALT    &mt LCTRL LT_SCAR &kp LSHFT   &none       &none       &kp LSHFT   &mt LCTRL LT_EOGO &mt LALT LT_IOGO &mt LGUI LT_EDOT
+                                      &kp LT_ZCAR      &none       &kp LT_CCAR       &none       &none       &none       &none       &none             &none            &none
+                                                                   &none             &none       &none       &none       &none       &none 
                         >;
                 };
                 media_layer {
